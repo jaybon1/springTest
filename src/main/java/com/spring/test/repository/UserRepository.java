@@ -6,6 +6,6 @@ import com.spring.test.model.User;
 
 public interface UserRepository {
 	
-	List<User> findAll();
+	public List<User> findAll();
 
 }
